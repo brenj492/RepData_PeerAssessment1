@@ -1,7 +1,3 @@
----
-output: html_document
----
-
 Reproducible Research Project 1
 ========================================================================================
 
@@ -36,18 +32,6 @@ Simple. Next we need to read the data from the csv file, and transfer it into dp
 
 ```r
 steps <- read.csv("activity.csv")
-```
-
-```
-## Warning in file(file, "rt"): cannot open file 'activity.csv': No such file
-## or directory
-```
-
-```
-## Error in file(file, "rt"): cannot open the connection
-```
-
-```r
 steps2 <- tbl_df(steps)
 ```
 
